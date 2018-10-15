@@ -10,4 +10,4 @@ This project is devided into 3 part:
 Mobile team : Phat, An.
 Web team : Dat.
 Design team: Duc, Tin.
-Analisation : Marketing team. 
+Analyzation : Marketing team. 
