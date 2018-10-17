@@ -8,12 +8,21 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
     TextView signUp;
+    TextView signIn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         signUp = findViewById(R.id.sign_up);
         signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this,SignupActivity.class);
+                startActivity(intent);
+            }
+        });
+        signIn = findViewById(R.id.sign_in);
+        signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);

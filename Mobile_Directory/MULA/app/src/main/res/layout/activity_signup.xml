@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff4848"
+    android:background="#ffcc00"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -19,7 +19,7 @@
             android:layout_marginTop="100dp"
             android:fontFamily="@font/roboto_bold"
             android:text="LOGO"
-            android:textColor="@color/white"
+            android:textColor="@android:color/black"
             android:textSize="35dp" />
 
         <LinearLayout
@@ -40,8 +40,8 @@
                 android:hint="Username"
                 android:inputType="text"
                 android:padding="20dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
                 android:textSize="15.4dp" />
         </LinearLayout>
 
@@ -63,8 +63,8 @@
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:padding="20dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
                 android:textSize="15.4dp" />
         </LinearLayout>
 
@@ -87,8 +87,8 @@
                 android:inputType="textPassword"
                 android:maxLength="6"
                 android:padding="20dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
                 android:textSize="15.4dp" />
         </LinearLayout>
 
